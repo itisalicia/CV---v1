@@ -1,0 +1,259 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: linear-gradient(rgb(196, 196, 204) 30%, 
+  rgb(112, 112, 207) 55%,
+  rgba(86, 86, 231, 0.778) 80%);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+header {
+  background-color: rgb(196, 196, 204);
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 40px;
+  height: 10px;
+  /* height: 65px; */
+  margin-bottom: 70px;
+}
+
+  a {
+  margin-right: 20px;
+  margin-top: 30px;
+  padding-left: 150px;
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+  }
+  
+a:hover {
+  color: white;
+  font-size: 20px;
+  }
+
+.navweb {
+  visibility: hidden;
+  }
+
+span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  position: relative;
+  top: 0px;
+  }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border-radius: 25px;
+  }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(196, 196, 204);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  }
+
+.dropdown-content a:hover {
+  background-color: rgb(112, 112, 207);
+  }
+
+.dropdown:hover 
+.dropdown-content {
+  display: block;
+  }
+
+.dropdown:hover 
+.dropbtn {
+  background-color: rgb(196, 196, 204);
+  }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 65px; 
+  background-color: rgba(86, 86, 231, 0.778); opacity: 0.5;
+  font-weight: bold;
+  }
+    
+h1 {
+  text-align: center;
+  font-family: "Sofia", sans-serif;
+  font-weight: thin;
+  padding-bottom: 30px;
+  color: rgb(37, 37, 56);
+  }
+    
+h1:hover {
+  color: white;
+  transition-delay: 0.3s;
+  cursor: crosshair;
+}
+
+#linkedin
+#github {
+   padding-left: 50px;
+}
+       
+main {
+  position: relative;
+  min-height: 100vh;
+}
+
+.contenair {
+  padding-bottom: 390px;
+  height: 180vh;
+}
+
+
+.timeline {
+  margin: 50px;
+}
+
+p {
+  text-decoration: underline;
+}
+
+#Degree1,
+#Degree2 {
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+
+.start,
+.end {
+  position: relative;
+  padding: 20px;
+  border-left: 2px dashed rgb(145, 88, 125);
+  background-color: linear-gradient(rgb(196, 196, 204) 30%, 
+  rgb(112, 112, 207) 55%,
+  rgba(86, 86, 231, 0.778) 80%);
+}
+
+.event {
+  position: relative;
+  padding: 20px;
+  border-left: 2px solid rgb(145, 88, 125);
+  background-color: linear-gradient(rgb(196, 196, 204) 30%, 
+  rgb(112, 112, 207) 55%,
+  rgba(86, 86, 231, 0.778) 80%);
+}
+
+.point {
+  position: absolute;
+  top: 12px;
+  left: -46px;
+  width: 80px;
+  padding: 5px;
+  text-align: center;
+}
+
+.description {
+  margin-left: 10px;
+}
+
+.start1,
+.end1 {
+  position: relative;
+  padding: 20px;
+  border-right: 2px dashed rgb(145, 88, 125);
+  background-color: linear-gradient(rgb(196, 196, 204) 30%, 
+  rgb(112, 112, 207) 55%,
+  rgba(86, 86, 231, 0.778) 80%);
+}
+
+
+.event1 {
+  position: relative;
+  padding: 20px;
+  border-right: 2px solid rgb(145, 88, 125);
+  background-color: linear-gradient(rgb(196, 196, 204) 30%, 
+  rgb(112, 112, 207) 55%,
+  rgba(86, 86, 231, 0.778) 80%);
+}
+
+
+.point1 {
+  position: absolute;
+  top: 12px;
+  right: -46px;
+  width: 80px;
+  padding: 5px;
+  text-align: center;
+}
+
+
+.description1 {
+  margin-right: 10px;
+  text-align: end;
+}
+
+#experience {
+  text-decoration: underline;
+  text-align: end;
+}
+
+
+@media screen and (min-width: 1000px) {
+  .start,
+  .end,
+  .event {
+  margin-left: 600px;
+  }
+  
+  .event1,
+  .end1,
+  .start1 {
+  margin-right: 500px;
+  }
+
+.navmobile {
+  visibility: hidden;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 65px; 
+  background-color: rgba(86, 86, 231, 0.778); opacity: 0.5;
+  font-weight: bold;
+  text-align: center;
+  }
+
+.dropdown {
+  display: hidden;
+}
+
+.navweb {
+  visibility: visible;
+}
+
+.contenair {
+  padding-bottom: 200px;
+  height: 180vh;
+}
+
+
+}
